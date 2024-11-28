@@ -1,0 +1,10 @@
+### Place a pixel
+POST http://localhost:5000/api/pixels/place
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzQ4ZDBhNDAzMjc1NzExZDVhYTFiZmQiLCJpYXQiOjE3MzI4MjYzNzksImV4cCI6MTczMjkxMjc3OX0.bVfFNKk_j9Ug8FUDcnfsAN2pfAGM3ExglfiG6GrbXaA
+
+{
+    "x": 10,
+    "y": 20,
+    "color": "#FF0000"
+}

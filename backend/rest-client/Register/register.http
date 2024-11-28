@@ -1,0 +1,8 @@
+### Registration successful
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "Batiste1998",
+  "password": "Password1;"
+}

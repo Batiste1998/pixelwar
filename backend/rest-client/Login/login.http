@@ -1,0 +1,8 @@
+### Login successful
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "Batiste1998",
+  "password": "Password1;"
+}
